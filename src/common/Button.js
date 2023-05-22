@@ -2,12 +2,12 @@
 import './Button.css'
 const Button=(props)=>{
 
-  
+  const{btName, btFun}= props;
     
     return(
         <div>
-          <button className="bt-cal" onClick={props.btFun} >
-            {props.btName}
+          <button className="bt-cal" onClick={btFun} >
+            {btName}
           </button>
           
         </div>
